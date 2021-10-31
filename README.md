@@ -6,7 +6,7 @@
 
 Kissy is the [suckless terminal](https://st.suckless.org/) fork with some features and love.
 
-I wanted to make something that doesn't turn computers into ovens, so I found a "literally the best terminal emulator ever" made a better one. Not really, because I'm not fluent in C and the project has been kind of abandoned. I switched to Wayland, so if you decide to install what you find here, be aware of the lack of updates and spaghetti inside.
+I wanted to make something that doesn't turn computers into ovens, so I found a "literally the best terminal emulator ever" and made a better one. Not really, because I'm not fluent in C and the project has been kind of abandoned. I switched to Wayland, so if you decide to install what you find here, be aware of the lack of updates and spaghetti inside.
 
 ## Features
 
@@ -28,7 +28,7 @@ I wanted to make something that doesn't turn computers into ovens, so I found a 
 
 ## Facts
 
-- The word `kissy` is a combination of the acronym "**K**eep **I**t **S**imply, **S**tupid", which refers to the philosophy of suckless tools and my second :-) favorite terminal emulator, [kitty](https://sw.kovidgoyal.net/kitty/);
+- The word `kissy` is a combination of the acronym "**K**eep **I**t **S**imply, **S**tupid", which refers to the philosophy of suckless tools and one of my favorite terminal emulators, [kitty](https://sw.kovidgoyal.net/kitty/);
 - It was supposed to be part of a larger project;
 - It's based on version 0.8.4 of st, but I've messed it up a bit and it's better to do the patches manually.;
 - One clipboard for terminal and browser breaks the [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). All in the name of convenience and laziness which turned out to be a bad idea in the long run;
