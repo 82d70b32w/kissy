@@ -4,9 +4,9 @@
 
 ## About
 
-Kissy is the [suckless terminal](https://st.suckless.org/) fork. I found a "literally the best terminal emulator ever" and made a better one.
+Kissy is the [suckless terminal](https://st.suckless.org/) fork. It was created primarily because of the problem of finding for myself an emulator with quality font rendering and at the same time the ability to display images. I'm not fluent in C and switched to Wayland, so the project has been kind of abandoned. If you decide to install what you find here, be aware of the lack of updates and spaghetti™ inside.
 
-Not really, because I'm not fluent in C and switched to Wayland yet, so the project has been kind of abandoned. If you decide to install what you find here, be aware of the lack of updates and spaghetti™ inside. Also one clipboard for terminal and browser breaks the [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). Turned out to be a bad idea in the long run.
+Also one clipboard for terminal and browser breaks the [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). Turned out to be a bad idea in the long run.
 
 ## Features
 
