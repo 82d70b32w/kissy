@@ -1,5 +1,3 @@
-# Kissy Terminal
-
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
 ## About
