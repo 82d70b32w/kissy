@@ -39,7 +39,7 @@ I wanted to make something that doesn't turn computers into ovens, so I found a 
 ## Installation
 
 ```
-git clone https://gitlab.com/jakubolszewski/kissy-terminal && cd kissy && sudo make clean install
+git clone https://gitlab.com/jakubolszewski/kissy-terminal && cd kissy-terminal && sudo make clean install
 ```
 
 ## To do (It will never happen)
