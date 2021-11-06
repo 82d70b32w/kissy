@@ -1,14 +1,11 @@
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
 ## About
-Kissy was created primarily because of the problem of finding for myself an emulator for x with:
-
-- Quality font rendering (like Alacritty)
-- Ability to display images (like Kitty)
+Kissy was created primarily because of the problem of finding for myself an emulator for X with _quality font rendering_ like Alacritty and ability to display images like Kitty.
 
 Well, there it is.
 
-If you value hardware acceleration, possibly low resource usage and integrated tabs, then you better take a look at Kitty or switch to Wayland. I don't use xorg anymore, so I don't think there will be any changes.
+I don't use Xorg anymore, so I don't think there will be any changes. If you value hardware acceleration, possibly lowest resource usage, integrated tabs, then you better take a look at Wezterm.
 
 ## Features
 - **Different name**, don't have to overwrite st
