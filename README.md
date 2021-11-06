@@ -1,9 +1,14 @@
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
 ## About
-Kissy is the [suckless terminal](https://st.suckless.org/) fork. It was created primarily because of the problem of finding for myself an emulator with quality font rendering and at the same time the ability to display images. I'm not fluent in C and switched to Wayland, so **the project has been kind of abandoned**. If you decide to install what you find here, be aware of the lack of updates and spaghetti inside.
+Kissy was created primarily because of the problem of finding for myself an emulator for x with:
 
-BTW One clipboard for terminal and browser breaks the [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). Turned out to be a bad idea in the long run.
+- Quality font rendering (like Alacritty)
+- Ability to display images (like Kitty)
+
+Well, there it is.
+
+If you value hardware acceleration, possibly low resource usage and integrated tabs, then you better take a look at Kitty or switch to Wayland. I don't use xorg anymore, so I don't think there will be any changes.
 
 ## Features
 - **Different name**, don't have to overwrite st
@@ -28,6 +33,5 @@ git clone https://gitlab.com/jakubolszewski/kissy-terminal && cd kissy-terminal 
 ```
 
 ## To do
-- Arranging shortcuts. Yup, messed.
-- Hardcoded icon
-- Tabs
+- One clipboard for terminal and browser breaks the [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt).
+- Arranging shortcuts. Messed.
