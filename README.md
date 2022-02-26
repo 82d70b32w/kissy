@@ -1,9 +1,7 @@
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
 ## About
-Kissy was created primarily because of the problem of finding an emulator for X with _quality font rendering_ and ability to display images like Kitty. So, there it is. Based on st 0.8.4.
-
-I don't use Xorg anymore, so I don't think there will be any changes. If you value hardware acceleration, possibly lowest resource usage, integrated tabs, then you better take a look at Wezterm or other no non-sense emulators like foot.
+Kissy was created primarily because of the problem of finding an emulator for X with _quality font rendering_ and ability to display images like Kitty. So, there it is. Based on st 0.8.4. I don't use Xorg anymomore, so there will not be any changes. If you value hardware acceleration, possibly lowest resource usage, integrated tabs, then you better take a look at Wezterm, or other no non-sense emulators like foot.
 
 ## Features
 - **Different name**, don't have to overwrite st
