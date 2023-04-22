@@ -25,7 +25,7 @@ Kissy was created primarily because of the problem of finding an terminal emulat
 ## Usage
 
 ```
-git clone https://github.com/w23b07d28/kissy && cd kissy && sudo make clean install
+git clone https://github.com/w23b07d28/kissy-terminal-emulator && cd kissy-terminal-emulator && sudo make clean install
 ```
 
 ## Disclaimer
