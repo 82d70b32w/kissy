@@ -22,12 +22,14 @@ Kissy was created primarily because of the problem of finding an terminal emulat
 - **More visually appealing text selection** while using mouse/touchpad
 - **Xresources support**
 
-## Installation
+## Usage
 
 ```
-git clone https://gitlab.com/jakubolszewski/kissy-terminal && cd kissy-terminal && sudo make clean install
+git clone https://github.com/w23b07d28/kissy && cd kissy && sudo make clean install
 ```
 
-## Important
+## Disclaimer
 
 One clipboard for terminal and browser breaks [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). And it was a bad decision. This means that you can copy things between the browser and the terminal, but if you decide to close the application, the clipboard also disappears. This is why it's useful to have a clipboard manager, and most likely why it was created. Don't make my mistake.
+
+Please note that Kissy is not and will not ever more in development and may not be suitable for use in production environments. The author takes no responsibility for any damages that may occur as a result of using this script. Use at your own risk.
