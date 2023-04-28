@@ -1,35 +1,40 @@
+# Kissy Terminal Emulator
+
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
-## About
-
-Kissy was created primarily because of the problem of finding an terminal emulator for X with _quality font rendering_ and the ability to display images like Kitty. So, here it is. Based on st 0.8.4. I don't use Xorg anymomore, so there won't be any changes. If you value hardware acceleration, lowest possible resource consumption, integrated tabs, then you'd better look at Wezterm, or other emulators like foot.
+Kissy is a terminal emulator for X that was created to address the problem of finding a terminal emulator with quality font rendering and the ability to display images like Kitty. It is based on st 0.8.4 and is ideal for those who value hardware acceleration, lowest possible resource consumption, and integrated tabs. 
 
 ## Features
 
-- **Different name**, don't have to overwrite st
-- **Font matches your system font**
-- **Emoji support**, requires harfbuzz
-- **Scrolling just with mouse wheel**. Done without an external program like [scroll](https://tools.suckless.org/scroll/), which I've seen in other builds, but is currently more of a compromise than a seamless solution IMO
-- **Background transparency**, but requires a compositor
-- **Better vertical alignment**, means centered
-- **Option to open at specific directory** with `kissy -d`
-- **Desktop icon**
-- **Clipboard integration** with web browser
-- **W3M images hack**
-- **Clears the window before the redraw** of the terminal
-- **Bold is not bright**
-- **Copy URL with a shortcut**
-- **More visually appealing text selection** while using mouse/touchpad
-- **Xresources support**
+- Different name, so you don't have to overwrite st
+- Font that matches your system font
+- Emoji support (requires harfbuzz)
+- Scrolling with just the mouse wheel (without an external program)
+- Background transparency (requires a compositor)
+- Better vertical alignment (centered)
+- Option to open at specific directory with `kissy -d`
+- Desktop icon
+- Clipboard integration with web browser
+- W3M images hack
+- Clears the window before the redraw of the terminal
+- Bold is not bright
+- Copy URL with a shortcut
+- More visually appealing text selection while using mouse/touchpad
+- Xresources support
 
 ## Usage
 
-```
+To install Kissy, clone the repository and run:
+
+```sh
 git clone https://github.com/w23b07d28/kissy-terminal-emulator && cd kissy-terminal-emulator && sudo make clean install
 ```
 
 ## Disclaimer
 
-One clipboard for terminal and browser breaks [freedesktop standard](http://standards.freedesktop.org/clipboards-spec/clipboards-latest.txt). And it was a bad decision. This means that you can copy things between the browser and the terminal, but if you decide to close the application, the clipboard also disappears. This is why it's useful to have a clipboard manager, and most likely why it was created. Don't make my mistake.
+Please note that Kissy is not and will not be further developed, and it may not be suitable for use in production environments. The author takes no responsibility for any damages that may occur as a result of using this script. Use at your own risk.
+Contributing
 
-Please note that Kissy is not and will not ever more in development and may not be suitable for use in production environments. The author takes no responsibility for any damages that may occur as a result of using this script. Use at your own risk.
+## License
+
+Kissy is released under the MIT License.
