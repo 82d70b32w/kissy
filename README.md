@@ -2,7 +2,7 @@
 
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
 
-Kissy is a terminal emulator for X that was created to address the problem of finding a terminal emulator with quality font rendering and the ability to display images like Kitty. It is based on st 0.8.4 and is ideal for those who value hardware acceleration, lowest possible resource consumption, and integrated tabs. 
+Kissy is a terminal emulator for X that was created to address the problem of finding a terminal emulator with quality font rendering and the ability to display images like Kitty. It is based on st 0.8.4.
 
 ## Features
 
@@ -33,7 +33,6 @@ git clone https://github.com/w23b07d28/kissy-terminal-emulator && cd kissy-termi
 ## Disclaimer
 
 Please note that Kissy is not and will not be further developed, and it may not be suitable for use in production environments. The author takes no responsibility for any damages that may occur as a result of using this script. Use at your own risk.
-Contributing
 
 ## License
 
