@@ -1,6 +1,8 @@
-# Kissy Terminal Emulator
+# Kissy
 
 ![Kissy terminal](https://i.postimg.cc/1RNFRP5F/kissy.jpg "kissy terminal")
+
+## About
 
 Kissy is a terminal emulator for X that was created to address the problem of finding a terminal emulator with quality font rendering and the ability to display images like Kitty. It is based on st 0.8.4.
 
